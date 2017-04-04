@@ -4,14 +4,15 @@
 *  - replacement: Paul Smith https://github.com/paulsmith
 *  - FIPS state abbreviations: https://github.com/joetric
 */
+$stateface-font-path: '../font/webfont' !default;
 
 @font-face {
   font-family: 'sf-regular';
-  src: url('../font/webfont/stateface-regular-webfont.eot');
-  src: url('../font/webfont/stateface-regular-webfont.eot?#iefix') format('embedded-opentype'),
-    url('../font/webfont/stateface-regular-webfont.woff') format('woff'),
-    url('../font/webfont/stateface-regular-webfont.ttf') format('truetype'),
-    url('../font/webfont/stateface-regular-webfont.svg#sf-regular') format('svg');
+  src: url('#{$stateface-font-path}/stateface-regular-webfont.eot');
+  src: url('#{$stateface-font-path}/stateface-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('#{$stateface-font-path}/stateface-regular-webfont.woff') format('woff'),
+    url('#{$stateface-font-path}/stateface-regular-webfont.ttf') format('truetype'),
+    url('#{$stateface-font-path}/stateface-regular-webfont.svg#sf-regular') format('svg');
   font-style: normal;
   font-weight: normal;
 }
